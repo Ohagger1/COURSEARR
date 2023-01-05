@@ -39,5 +39,10 @@ head(hotel_summary)
 print(hotel_summary)
 cor(bookings_df)
 
+onlineta_city_hotels <- filter(bookings_df, 
+                               (hotel=="City Hotel" & 
+                                  bookings_df$market_segment=="Online TA"))
+
 
 library('ToothGrowth')
+View(onlineta_city_hotels)
