@@ -18,4 +18,5 @@ filtered_toothgrowth <- ToothGrowth %>%
 #view function
 filtered_toothgrowth
 
-
+head(ToothGrowth)
+str(ToothGrowth)
